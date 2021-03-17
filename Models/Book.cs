@@ -5,8 +5,7 @@ namespace BooksApi.Models
 {
     public class Book
     {
-        //Designated as primary key with MongoDB
-        [BsonId] 
+        [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
 
